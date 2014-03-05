@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660F944F18C6F14600F7EFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F944E18C6F14600F7EFC2 /* Foundation.framework */; };
+		660F945118C6F14600F7EFC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F945018C6F14600F7EFC2 /* CoreGraphics.framework */; };
+		660F945318C6F14600F7EFC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F945218C6F14600F7EFC2 /* UIKit.framework */; };
+		660F945918C6F14600F7EFC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660F945718C6F14600F7EFC2 /* InfoPlist.strings */; };
+		660F945B18C6F14600F7EFC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F945A18C6F14600F7EFC2 /* main.m */; };
+		660F945F18C6F14600F7EFC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F945E18C6F14600F7EFC2 /* AppDelegate.m */; };
+		660F946218C6F14600F7EFC2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660F946018C6F14600F7EFC2 /* Main_iPhone.storyboard */; };
+		660F946518C6F14600F7EFC2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660F946318C6F14600F7EFC2 /* Main_iPad.storyboard */; };
+		660F946818C6F14600F7EFC2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F946718C6F14600F7EFC2 /* FirstViewController.m */; };
+		660F946B18C6F14600F7EFC2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F946A18C6F14600F7EFC2 /* SecondViewController.m */; };
+		660F946D18C6F14600F7EFC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660F946C18C6F14600F7EFC2 /* Images.xcassets */; };
+		660F947418C6F14700F7EFC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F947318C6F14700F7EFC2 /* XCTest.framework */; };
+		660F947518C6F14700F7EFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F944E18C6F14600F7EFC2 /* Foundation.framework */; };
+		660F947618C6F14700F7EFC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F945218C6F14600F7EFC2 /* UIKit.framework */; };
+		660F947E18C6F14700F7EFC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660F947C18C6F14700F7EFC2 /* InfoPlist.strings */; };
+		660F948018C6F14700F7EFC2 /* nventourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F947F18C6F14700F7EFC2 /* nventourTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660F947718C6F14700F7EFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660F944318C6F14600F7EFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660F944A18C6F14600F7EFC2;
+			remoteInfo = nventour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660F944B18C6F14600F7EFC2 /* nventour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nventour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660F944E18C6F14600F7EFC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		660F945018C6F14600F7EFC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		660F945218C6F14600F7EFC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		660F945618C6F14600F7EFC2 /* nventour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nventour-Info.plist"; sourceTree = "<group>"; };
+		660F945818C6F14600F7EFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		660F945A18C6F14600F7EFC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660F945C18C6F14600F7EFC2 /* nventour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nventour-Prefix.pch"; sourceTree = "<group>"; };
+		660F945D18C6F14600F7EFC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660F945E18C6F14600F7EFC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660F946118C6F14600F7EFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		660F946418C6F14600F7EFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		660F946618C6F14600F7EFC2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		660F946718C6F14600F7EFC2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		660F946918C6F14600F7EFC2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		660F946A18C6F14600F7EFC2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		660F946C18C6F14600F7EFC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		660F947218C6F14700F7EFC2 /* nventourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nventourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660F947318C6F14700F7EFC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		660F947B18C6F14700F7EFC2 /* nventourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nventourTests-Info.plist"; sourceTree = "<group>"; };
+		660F947D18C6F14700F7EFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		660F947F18C6F14700F7EFC2 /* nventourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nventourTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660F944818C6F14600F7EFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F945118C6F14600F7EFC2 /* CoreGraphics.framework in Frameworks */,
+				660F945318C6F14600F7EFC2 /* UIKit.framework in Frameworks */,
+				660F944F18C6F14600F7EFC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F946F18C6F14600F7EFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F947418C6F14700F7EFC2 /* XCTest.framework in Frameworks */,
+				660F947618C6F14700F7EFC2 /* UIKit.framework in Frameworks */,
+				660F947518C6F14700F7EFC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660F944218C6F14600F7EFC2 = {
+			isa = PBXGroup;
+			children = (
+				660F945418C6F14600F7EFC2 /* nventour */,
+				660F947918C6F14700F7EFC2 /* nventourTests */,
+				660F944D18C6F14600F7EFC2 /* Frameworks */,
+				660F944C18C6F14600F7EFC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660F944C18C6F14600F7EFC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660F944B18C6F14600F7EFC2 /* nventour.app */,
+				660F947218C6F14700F7EFC2 /* nventourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660F944D18C6F14600F7EFC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				660F944E18C6F14600F7EFC2 /* Foundation.framework */,
+				660F945018C6F14600F7EFC2 /* CoreGraphics.framework */,
+				660F945218C6F14600F7EFC2 /* UIKit.framework */,
+				660F947318C6F14700F7EFC2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		660F945418C6F14600F7EFC2 /* nventour */ = {
+			isa = PBXGroup;
+			children = (
+				660F945D18C6F14600F7EFC2 /* AppDelegate.h */,
+				660F945E18C6F14600F7EFC2 /* AppDelegate.m */,
+				660F946018C6F14600F7EFC2 /* Main_iPhone.storyboard */,
+				660F946318C6F14600F7EFC2 /* Main_iPad.storyboard */,
+				660F946618C6F14600F7EFC2 /* FirstViewController.h */,
+				660F946718C6F14600F7EFC2 /* FirstViewController.m */,
+				660F946918C6F14600F7EFC2 /* SecondViewController.h */,
+				660F946A18C6F14600F7EFC2 /* SecondViewController.m */,
+				660F946C18C6F14600F7EFC2 /* Images.xcassets */,
+				660F945518C6F14600F7EFC2 /* Supporting Files */,
+			);
+			path = nventour;
+			sourceTree = "<group>";
+		};
+		660F945518C6F14600F7EFC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660F945618C6F14600F7EFC2 /* nventour-Info.plist */,
+				660F945718C6F14600F7EFC2 /* InfoPlist.strings */,
+				660F945A18C6F14600F7EFC2 /* main.m */,
+				660F945C18C6F14600F7EFC2 /* nventour-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660F947918C6F14700F7EFC2 /* nventourTests */ = {
+			isa = PBXGroup;
+			children = (
+				660F947F18C6F14700F7EFC2 /* nventourTests.m */,
+				660F947A18C6F14700F7EFC2 /* Supporting Files */,
+			);
+			path = nventourTests;
+			sourceTree = "<group>";
+		};
+		660F947A18C6F14700F7EFC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660F947B18C6F14700F7EFC2 /* nventourTests-Info.plist */,
+				660F947C18C6F14700F7EFC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660F944A18C6F14600F7EFC2 /* nventour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660F948318C6F14700F7EFC2 /* Build configuration list for PBXNativeTarget "nventour" */;
+			buildPhases = (
+				660F944718C6F14600F7EFC2 /* Sources */,
+				660F944818C6F14600F7EFC2 /* Frameworks */,
+				660F944918C6F14600F7EFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nventour;
+			productName = nventour;
+			productReference = 660F944B18C6F14600F7EFC2 /* nventour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660F947118C6F14600F7EFC2 /* nventourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660F948618C6F14700F7EFC2 /* Build configuration list for PBXNativeTarget "nventourTests" */;
+			buildPhases = (
+				660F946E18C6F14600F7EFC2 /* Sources */,
+				660F946F18C6F14600F7EFC2 /* Frameworks */,
+				660F947018C6F14600F7EFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660F947818C6F14700F7EFC2 /* PBXTargetDependency */,
+			);
+			name = nventourTests;
+			productName = nventourTests;
+			productReference = 660F947218C6F14700F7EFC2 /* nventourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660F944318C6F14600F7EFC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Etai Pinckney";
+				TargetAttributes = {
+					660F947118C6F14600F7EFC2 = {
+						TestTargetID = 660F944A18C6F14600F7EFC2;
+					};
+				};
+			};
+			buildConfigurationList = 660F944618C6F14600F7EFC2 /* Build configuration list for PBXProject "nventour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660F944218C6F14600F7EFC2;
+			productRefGroup = 660F944C18C6F14600F7EFC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660F944A18C6F14600F7EFC2 /* nventour */,
+				660F947118C6F14600F7EFC2 /* nventourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660F944918C6F14600F7EFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F946518C6F14600F7EFC2 /* Main_iPad.storyboard in Resources */,
+				660F946D18C6F14600F7EFC2 /* Images.xcassets in Resources */,
+				660F946218C6F14600F7EFC2 /* Main_iPhone.storyboard in Resources */,
+				660F945918C6F14600F7EFC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F947018C6F14600F7EFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F947E18C6F14700F7EFC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660F944718C6F14600F7EFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F946B18C6F14600F7EFC2 /* SecondViewController.m in Sources */,
+				660F945F18C6F14600F7EFC2 /* AppDelegate.m in Sources */,
+				660F946818C6F14600F7EFC2 /* FirstViewController.m in Sources */,
+				660F945B18C6F14600F7EFC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F946E18C6F14600F7EFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F948018C6F14700F7EFC2 /* nventourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660F947818C6F14700F7EFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660F944A18C6F14600F7EFC2 /* nventour */;
+			targetProxy = 660F947718C6F14700F7EFC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660F945718C6F14600F7EFC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F945818C6F14600F7EFC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		660F946018C6F14600F7EFC2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F946118C6F14600F7EFC2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		660F946318C6F14600F7EFC2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F946418C6F14600F7EFC2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		660F947C18C6F14700F7EFC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F947D18C6F14700F7EFC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660F948118C6F14700F7EFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660F948218C6F14700F7EFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660F948418C6F14700F7EFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
+				INFOPLIST_FILE = "nventour/nventour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		660F948518C6F14700F7EFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
+				INFOPLIST_FILE = "nventour/nventour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		660F948718C6F14700F7EFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nventour.app/nventour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nventourTests/nventourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		660F948818C6F14700F7EFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nventour.app/nventour";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
+				INFOPLIST_FILE = "nventourTests/nventourTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660F944618C6F14600F7EFC2 /* Build configuration list for PBXProject "nventour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660F948118C6F14700F7EFC2 /* Debug */,
+				660F948218C6F14700F7EFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660F948318C6F14700F7EFC2 /* Build configuration list for PBXNativeTarget "nventour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660F948418C6F14700F7EFC2 /* Debug */,
+				660F948518C6F14700F7EFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		660F948618C6F14700F7EFC2 /* Build configuration list for PBXNativeTarget "nventourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660F948718C6F14700F7EFC2 /* Debug */,
+				660F948818C6F14700F7EFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660F944318C6F14600F7EFC2 /* Project object */;
+}
