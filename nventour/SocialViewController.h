@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SocialViewController : UIViewController{
+@interface SocialViewController : UIViewController<UIActionSheetDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate>{
     UIImageView *profileImage;
 }
 @property (strong, nonatomic) IBOutlet UIImageView *profilePicture;
