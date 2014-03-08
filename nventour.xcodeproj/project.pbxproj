@@ -23,6 +23,27 @@
 		660F947618C6F14700F7EFC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F945218C6F14600F7EFC2 /* UIKit.framework */; };
 		660F947E18C6F14700F7EFC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660F947C18C6F14700F7EFC2 /* InfoPlist.strings */; };
 		660F948018C6F14700F7EFC2 /* nventourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F947F18C6F14700F7EFC2 /* nventourTests.m */; };
+		660F948B18C6F22B00F7EFC2 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F948A18C6F22B00F7EFC2 /* SocialViewController.m */; };
+		6634569018C8056700EFF02A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6634568F18C8056700EFF02A /* MapKit.framework */; };
+		6634569418C80F1300EFF02A /* mountains.png in Resources */ = {isa = PBXBuildFile; fileRef = 6634569318C80F1300EFF02A /* mountains.png */; };
+		66B4DC1218C8138600BA938B /* mountains.png in Resources */ = {isa = PBXBuildFile; fileRef = 6634569318C80F1300EFF02A /* mountains.png */; };
+		66B4DC1518C822AF00BA938B /* TripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4DC1418C822AF00BA938B /* TripViewController.m */; };
+		66B4DC1818C946CB00BA938B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4DC1718C946CB00BA938B /* User.m */; };
+		66B4DC1A18C9487100BA938B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC1918C9487100BA938B /* Parse.framework */; };
+		66B4DC1B18C9487100BA938B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC1918C9487100BA938B /* Parse.framework */; };
+		66B4DC1D18C948A300BA938B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC1C18C948A300BA938B /* AudioToolbox.framework */; };
+		66B4DC1F18C948AB00BA938B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC1E18C948AB00BA938B /* CFNetwork.framework */; };
+		66B4DC2118C948C300BA938B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2018C948C300BA938B /* CoreLocation.framework */; };
+		66B4DC2318C948D100BA938B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2218C948D100BA938B /* libz.dylib */; };
+		66B4DC2518C948D900BA938B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2418C948D900BA938B /* MobileCoreServices.framework */; };
+		66B4DC2718C948E100BA938B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2618C948E100BA938B /* QuartzCore.framework */; };
+		66B4DC2918C948EC00BA938B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2818C948EC00BA938B /* Security.framework */; };
+		66B4DC2B18C948F300BA938B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2A18C948F300BA938B /* StoreKit.framework */; };
+		66B4DC2D18C948FB00BA938B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B4DC2C18C948FB00BA938B /* SystemConfiguration.framework */; };
+		66B4DC3018C951DD00BA938B /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4DC2F18C951DD00BA938B /* SignInViewController.m */; };
+		66B4DC3118C951DD00BA938B /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4DC2F18C951DD00BA938B /* SignInViewController.m */; };
+		66B4DC3418CAA3ED00BA938B /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4DC3318CAA3ED00BA938B /* CreateAccountViewController.m */; };
+		66B4DC3518CAA3ED00BA938B /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B4DC3318CAA3ED00BA938B /* CreateAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +79,28 @@
 		660F947B18C6F14700F7EFC2 /* nventourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nventourTests-Info.plist"; sourceTree = "<group>"; };
 		660F947D18C6F14700F7EFC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		660F947F18C6F14700F7EFC2 /* nventourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nventourTests.m; sourceTree = "<group>"; };
+		660F948918C6F22B00F7EFC2 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		660F948A18C6F22B00F7EFC2 /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		6634568F18C8056700EFF02A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6634569318C80F1300EFF02A /* mountains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mountains.png; path = ../../nventourImages/mountains.png; sourceTree = "<group>"; };
+		66B4DC1318C822AF00BA938B /* TripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripViewController.h; sourceTree = "<group>"; };
+		66B4DC1418C822AF00BA938B /* TripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripViewController.m; sourceTree = "<group>"; };
+		66B4DC1618C946CB00BA938B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		66B4DC1718C946CB00BA938B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		66B4DC1918C9487100BA938B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		66B4DC1C18C948A300BA938B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		66B4DC1E18C948AB00BA938B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		66B4DC2018C948C300BA938B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		66B4DC2218C948D100BA938B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		66B4DC2418C948D900BA938B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		66B4DC2618C948E100BA938B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		66B4DC2818C948EC00BA938B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66B4DC2A18C948F300BA938B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		66B4DC2C18C948FB00BA938B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		66B4DC2E18C951DD00BA938B /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		66B4DC2F18C951DD00BA938B /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		66B4DC3218CAA3ED00BA938B /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		66B4DC3318CAA3ED00BA938B /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +108,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B4DC2D18C948FB00BA938B /* SystemConfiguration.framework in Frameworks */,
+				66B4DC2B18C948F300BA938B /* StoreKit.framework in Frameworks */,
+				66B4DC2918C948EC00BA938B /* Security.framework in Frameworks */,
+				66B4DC2718C948E100BA938B /* QuartzCore.framework in Frameworks */,
+				66B4DC2518C948D900BA938B /* MobileCoreServices.framework in Frameworks */,
+				66B4DC2318C948D100BA938B /* libz.dylib in Frameworks */,
+				66B4DC2118C948C300BA938B /* CoreLocation.framework in Frameworks */,
 				660F945118C6F14600F7EFC2 /* CoreGraphics.framework in Frameworks */,
+				66B4DC1F18C948AB00BA938B /* CFNetwork.framework in Frameworks */,
+				66B4DC1D18C948A300BA938B /* AudioToolbox.framework in Frameworks */,
+				6634569018C8056700EFF02A /* MapKit.framework in Frameworks */,
 				660F945318C6F14600F7EFC2 /* UIKit.framework in Frameworks */,
 				660F944F18C6F14600F7EFC2 /* Foundation.framework in Frameworks */,
+				66B4DC1A18C9487100BA938B /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +131,7 @@
 			files = (
 				660F947418C6F14700F7EFC2 /* XCTest.framework in Frameworks */,
 				660F947618C6F14700F7EFC2 /* UIKit.framework in Frameworks */,
+				66B4DC1B18C9487100BA938B /* Parse.framework in Frameworks */,
 				660F947518C6F14700F7EFC2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +161,16 @@
 		660F944D18C6F14600F7EFC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66B4DC2C18C948FB00BA938B /* SystemConfiguration.framework */,
+				66B4DC2A18C948F300BA938B /* StoreKit.framework */,
+				66B4DC2818C948EC00BA938B /* Security.framework */,
+				66B4DC2618C948E100BA938B /* QuartzCore.framework */,
+				66B4DC2418C948D900BA938B /* MobileCoreServices.framework */,
+				66B4DC2218C948D100BA938B /* libz.dylib */,
+				66B4DC2018C948C300BA938B /* CoreLocation.framework */,
+				66B4DC1E18C948AB00BA938B /* CFNetwork.framework */,
+				66B4DC1C18C948A300BA938B /* AudioToolbox.framework */,
+				6634568F18C8056700EFF02A /* MapKit.framework */,
 				660F944E18C6F14600F7EFC2 /* Foundation.framework */,
 				660F945018C6F14600F7EFC2 /* CoreGraphics.framework */,
 				660F945218C6F14600F7EFC2 /* UIKit.framework */,
@@ -117,14 +182,25 @@
 		660F945418C6F14600F7EFC2 /* nventour */ = {
 			isa = PBXGroup;
 			children = (
+				66B4DC1918C9487100BA938B /* Parse.framework */,
 				660F945D18C6F14600F7EFC2 /* AppDelegate.h */,
 				660F945E18C6F14600F7EFC2 /* AppDelegate.m */,
+				66B4DC2E18C951DD00BA938B /* SignInViewController.h */,
+				66B4DC2F18C951DD00BA938B /* SignInViewController.m */,
+				66B4DC3218CAA3ED00BA938B /* CreateAccountViewController.h */,
+				66B4DC3318CAA3ED00BA938B /* CreateAccountViewController.m */,
+				66B4DC1618C946CB00BA938B /* User.h */,
+				66B4DC1718C946CB00BA938B /* User.m */,
 				660F946018C6F14600F7EFC2 /* Main_iPhone.storyboard */,
 				660F946318C6F14600F7EFC2 /* Main_iPad.storyboard */,
+				660F948918C6F22B00F7EFC2 /* SocialViewController.h */,
+				660F948A18C6F22B00F7EFC2 /* SocialViewController.m */,
 				660F946618C6F14600F7EFC2 /* FirstViewController.h */,
 				660F946718C6F14600F7EFC2 /* FirstViewController.m */,
 				660F946918C6F14600F7EFC2 /* SecondViewController.h */,
 				660F946A18C6F14600F7EFC2 /* SecondViewController.m */,
+				66B4DC1318C822AF00BA938B /* TripViewController.h */,
+				66B4DC1418C822AF00BA938B /* TripViewController.m */,
 				660F946C18C6F14600F7EFC2 /* Images.xcassets */,
 				660F945518C6F14600F7EFC2 /* Supporting Files */,
 			);
@@ -134,6 +210,7 @@
 		660F945518C6F14600F7EFC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6634569318C80F1300EFF02A /* mountains.png */,
 				660F945618C6F14600F7EFC2 /* nventour-Info.plist */,
 				660F945718C6F14600F7EFC2 /* InfoPlist.strings */,
 				660F945A18C6F14600F7EFC2 /* main.m */,
@@ -207,6 +284,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Etai Pinckney";
 				TargetAttributes = {
+					660F944A18C6F14600F7EFC2 = {
+						DevelopmentTeam = Y99HQ5TSM2;
+					};
 					660F947118C6F14600F7EFC2 = {
 						TestTargetID = 660F944A18C6F14600F7EFC2;
 					};
@@ -240,6 +320,7 @@
 				660F946D18C6F14600F7EFC2 /* Images.xcassets in Resources */,
 				660F946218C6F14600F7EFC2 /* Main_iPhone.storyboard in Resources */,
 				660F945918C6F14600F7EFC2 /* InfoPlist.strings in Resources */,
+				6634569418C80F1300EFF02A /* mountains.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B4DC1218C8138600BA938B /* mountains.png in Resources */,
 				660F947E18C6F14700F7EFC2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,10 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B4DC3018C951DD00BA938B /* SignInViewController.m in Sources */,
+				660F948B18C6F22B00F7EFC2 /* SocialViewController.m in Sources */,
+				66B4DC1818C946CB00BA938B /* User.m in Sources */,
 				660F946B18C6F14600F7EFC2 /* SecondViewController.m in Sources */,
 				660F945F18C6F14600F7EFC2 /* AppDelegate.m in Sources */,
+				66B4DC1518C822AF00BA938B /* TripViewController.m in Sources */,
 				660F946818C6F14600F7EFC2 /* FirstViewController.m in Sources */,
 				660F945B18C6F14600F7EFC2 /* main.m in Sources */,
+				66B4DC3418CAA3ED00BA938B /* CreateAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +356,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B4DC3118C951DD00BA938B /* SignInViewController.m in Sources */,
 				660F948018C6F14700F7EFC2 /* nventourTests.m in Sources */,
+				66B4DC3518CAA3ED00BA938B /* CreateAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +487,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/etaipinckney/Documents/nventour/nventour,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
 				INFOPLIST_FILE = "nventour/nventour-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,10 +507,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/etaipinckney/Documents/nventour/nventour,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
 				INFOPLIST_FILE = "nventour/nventour-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -428,6 +531,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/etaipinckney/Documents/nventour/nventour,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
@@ -451,6 +555,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/etaipinckney/Documents/nventour/nventour,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nventour/nventour-Prefix.pch";
@@ -480,6 +585,7 @@
 				660F948518C6F14700F7EFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		660F948618C6F14700F7EFC2 /* Build configuration list for PBXNativeTarget "nventourTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +594,7 @@
 				660F948818C6F14700F7EFC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

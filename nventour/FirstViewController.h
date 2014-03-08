@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+    UIImageView *imageView;
+    
+}
+@property (strong, nonatomic) IBOutlet UIImageView *tripImage;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
